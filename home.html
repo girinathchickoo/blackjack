@@ -1,0 +1,115 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container1">
+        <h2>challenge -1 age in days</h2>
+        <div class="flexbox1">
+            <div>
+                <button class="btn btn-primary" onclick="age()">click me</button>
+            </div>
+            <div>
+                <button class="btn btn-danger" onclick="reset()">reset</button>
+            </div>
+
+        </div>
+        <div id="result"></div>
+    </div>
+    <div class="container2">
+        <h2>challenge-2 fish generator</h2>
+        <button class="btn btn-success" onclick="fish()">generate fish</button>
+    </div>
+    <div class="container3" id="gen"></div>
+    </div>
+
+    <div class="container4">
+        <h2>challenge -3 rock paper scissor</h2>
+        <div class="flexbox2">
+            <img src="rock.jpg" alt="rock" id="rock" onclick="rpsgame(this)">
+            <img src="paper.jpg" alt="paper" id="paper" onclick="rpsgame(this)">
+            <img src="scissor.jpg" alt="scissor" id="scissor" onclick="rpsgame(this)">
+        </div>
+        <div id="r">
+
+        </div>
+    </div>
+    </div>
+    <div class="container5">
+        <h2>challenge-4 random colors</h2>
+        <div class="flexbox3">
+
+
+            <form>
+                <select onchange="randomcolors(this)">
+                    <option value="reset">reset</option>
+                    <option value="red">red</option>
+                    <option value="green">green</option>
+                    <option value="blue">blue</option>
+                    <option value="random">random</option>
+
+                </select>
+            </form>
+
+            <button class="btn btn-primary">insta</button>
+            <button class="btn btn-danger">facebook</button>
+            <button class="btn btn-warning">spotify</button>
+            <button class="btn btn-success">linkedin</button>
+
+
+        </div>
+    </div>
+    <div class="container6">
+        <h2>challenge-5 blackjack</h2>
+        <div>
+            <h2><span id="wordspan">let's play</span></h2>
+        </div>
+        <div class="flexbox4">
+            <div class="you" id="you">
+                <h2> you : <span id="yourscore"> 0</span></div>
+            </h2>
+
+            <div class="bot" id="bot">
+                <h2> dealer : <span id="botscore"> 0</span></div>
+            </h2>
+        </div>
+
+        <div class="flexbox5">
+            <button class="btn-lg btn-primary mr-2" id="hitbutton">hit</button>
+            <button class="btn-lg btn-warning mr-2" id="standbutton">stand</button>
+            <button class="btn-lg btn-success mr-2" id="dealbutton">deal</button>
+        </div>
+
+
+        <div class="table">
+            <table>
+
+                <tr>
+                    <td>wins</td>
+                    <td>losses</td>
+                    <td>draws</td>
+                </tr>
+
+
+
+                <td><span id="win">0</span></td>
+                <td><span id="loss">0</span></td>
+                <td><span id="draw">0</span></td>
+
+
+            </table>
+        </div>
+    </div>
+    <script src="script.js">
+    </script>
+
+</body>
+
+</html>

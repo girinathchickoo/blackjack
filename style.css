@@ -1,0 +1,100 @@
+.container1,
+.container2,
+.container3,
+.container4,
+.container5,
+.container6 {
+    border: 1px solid black;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flexbox1,
+.flexbox2,
+.flexbox3,
+.flexbox4,
+.flexbox5,
+.flexbox6 {
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flexbox1 div {
+    padding: 10px;
+}
+
+.container3 img {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    box-shadow: 0px 10px 50px black;
+}
+
+.container4 img {
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+    box-shadow: 0px 10px 50px black;
+}
+
+.container4 img:hover {
+    box-shadow: 0px 10px 50px blue;
+}
+
+.container4 div {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.flexbox3 button {
+    padding: 10px;
+    margin: 10px;
+}
+
+.flexbox3 select {
+    margin: 10px;
+}
+
+.container5 div {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.flexbox4 div {
+    flex: 1;
+    height: 405px;
+}
+
+.flexbox4,
+.flexbox5 {
+    color: wheat;
+    background-image: url("bj.jpg");
+}
+
+.flexbox5 button {
+    margin: 10px;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+table th,
+td {
+    border: 1px solid black;
+}
+
+.flexbox4 img {
+    width: 120px;
+    height: 160px;
+    box-shadow: 0px 10px 50px black;
+    margin: 10px;
+}
